@@ -6,7 +6,7 @@ WHERE a_e.fk_ide_alu = es.ide_alu
 AND es.fk_cod_cur = cu.cod_cur
 AND nta_apl > 3.0
 GROUP BY cu.cod_cur, cu.nom_cur
-ORDER BY cantidad_alumnos
+ORDER BY cantidad_alumnos;
 
 
 
